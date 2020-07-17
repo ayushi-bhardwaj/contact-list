@@ -1,0 +1,75 @@
+body{
+    margin:0;
+
+}
+#heading{
+    margin:25px;
+    color:grey;
+    text-align: center;
+    font-size: 60px;
+}
+.List{
+position: relative;
+left:470px;
+}
+#List-items{
+    background-color: blue;
+    margin: 2px;
+    width:500px;
+    height:50px ;
+    cursor: pointer;
+    
+     
+}
+#List-items:hover{
+    background-color: grey;
+}
+#list-items li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+#list-items p{
+    display: inline;
+    font-size: 20px;font-weight: 700;
+    color: blanchedalmond;
+    font-family: sans-serif;
+    
+
+}
+#form{
+    position: relative;
+    left:520px;
+    
+}
+#form input{
+    border: 0px;
+     background-color: black;
+     height: 30px;
+     width: 210px;
+     font-size: 20px;
+     color: blanchedalmond;
+     
+}
+
+#form button{
+    background-color: grey;
+    width:60px;
+    height: 30px;
+    border: 0px;
+    color: antiquewhite;
+    position: relative;
+    top:-3px;
+}
+.delete-icon{
+    position: relative;
+    left: 485px;
+    top:-62px;
+}
+.delete-icon a{
+    color:white;
+    background-color: red;
+    font-size: 14px;
+}
